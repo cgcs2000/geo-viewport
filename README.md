@@ -2,6 +2,8 @@
 
 # geo-viewport
 
+> This repository is a fork of `mapbox/geo-viewport`, but for CGCS200 projection.
+
 Turns bounding boxes / extents into centerpoint & zoom
 combos for static maps.
 
@@ -10,7 +12,7 @@ or a script tag.
 
 ## Install
 
-    npm install --save @mapbox/geo-viewport
+    npm install --save @cgcs2000/geo-viewport
 
 Or use a plugin:
 
@@ -28,7 +30,7 @@ with methods `bounds` and `viewport` documented below.
 ### With Node
 
 ```js
-var geoViewport = require('@mapbox/geo-viewport');
+var geoViewport = require('@cgcs2000/geo-viewport');
 
 geoViewport.viewport([
     5.668343999999995,

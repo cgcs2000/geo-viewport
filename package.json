@@ -1,17 +1,17 @@
 {
   "license": "BSD-2-Clause",
-  "name": "@mapbox/geo-viewport",
+  "name": "@cgcs2000/geo-viewport",
   "repository": {
-    "url": "git@github.com:mapbox/geo-viewport.git",
+    "url": "git@github.com:cgcs2000/geo-viewport.git",
     "type": "git"
   },
   "author": "Tom MacWright",
   "bugs": {
-    "url": "https://github.com/mapbox/geo-viewport/issues"
+    "url": "https://github.com/cgcs2000/geo-viewport/issues"
   },
   "version": "0.4.0",
   "dependencies": {
-    "@mapbox/sphericalmercator": "~1.1.0"
+    "@cgcs2000/sphericalmercator": "~1.1.0"
   },
   "scripts": {
     "test": "tap test/*.js",
@@ -29,6 +29,6 @@
     "tap": "^5.7.0"
   },
   "main": "index.js",
-  "homepage": "https://github.com/mapbox/geo-viewport",
+  "homepage": "https://github.com/cgcs2000/geo-viewport",
   "description": "convert between viewports and extents"
 }

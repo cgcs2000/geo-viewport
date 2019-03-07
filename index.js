@@ -1,4 +1,4 @@
-var SphericalMercator = require('@mapbox/sphericalmercator');
+var SphericalMercator = require('@cgcs2000/sphericalmercator');
 
 // The SphericalMercator library only accepts a variable
 // tileSize on instantiation, which it uses to pre-cache
@@ -25,7 +25,7 @@ function getAdjusted(base, ratios, allowFloat) {
     var adjusted = Math.min(
             base - (Math.log(ratios[0]) / Math.log(2)),
             base - (Math.log(ratios[1]) / Math.log(2)));
-    
+
     return allowFloat ? adjusted : Math.floor(adjusted);
 }
 
